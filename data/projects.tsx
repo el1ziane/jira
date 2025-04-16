@@ -8,25 +8,6 @@ export const projects: Project[] = [
     tags: ['programação', 'design', 'produto'],
     type: 'web',
   },
-  {
-    title: 'Desofuscador de Código JS',
-    description: 'Ferramenta baseada no Babel para restaurar código JavaScript ofuscado',
-    preview: '/img/project/js-deobfuscator.png',
-    website: 'https://js-deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-deobfuscator',
-    tags: ['opensource', 'favorito'],
-    type: 'web',
-  },
-
-  {
-    title: 'Servidor de API',
-    description: '🔗 Site de serviço de API baseado em Nuxt',
-    preview: '/img/project/kz-api.png',
-    website: 'https://api.kuizuo.cn',
-    source: 'https://github.com/kuizuo/api-service',
-    tags: ['opensource', 'favorito', 'produto'],
-    type: 'web',
-  },
 ]
 
 export type Tag = {
